@@ -5,7 +5,7 @@
 "golangci-lint" = "latest"
 "goreleaser" = "latest"
 # Rust
-"rust" = { version = "1.99.0", components = "rustfmt,clippy" }
+"rust" = { version = "1.99.1", components = "rustfmt,clippy" }
 "cargo-deny" = "0.20.2"
 # Misc
 "ffmpeg" = "9.0.2"
