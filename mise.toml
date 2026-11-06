@@ -1,5 +1,11 @@
 [tools]
+# Go
 "go" = "1.27.3"
 "go:golang.org/x/tools/gopls" = "latest"
 "golangci-lint" = "latest"
 "goreleaser" = "latest"
+# Rust
+"rust" = { version = "1.99.1", components = "rustfmt,clippy" }
+"cargo-deny" = "0.20.2"
+# Misc
+"ffmpeg" = "9.0.1"
